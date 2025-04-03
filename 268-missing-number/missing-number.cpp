@@ -1,6 +1,5 @@
 class Solution {
 public:
-//PRANJAL
     int missingNumber(vector<int>& nums) {
         int n = nums.size();// for size
         int xor1 = 0, xor2 =0; 
