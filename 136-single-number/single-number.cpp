@@ -3,7 +3,7 @@ public:
     int singleNumber(vector<int>& nums) {
           int result = 0;
         for(int num : nums){
-            result ^= num; 
+            result ^= num; //xor all num one by one
         }
         return result;
     }
